@@ -1,0 +1,48 @@
+body {
+  @import url('https://fonts.googleapis.com/css?family=Helvetica');
+  font-family: 'Helvetica', helvetica;
+  background-color: black;
+}
+
+h1 {
+  font-size: 1.8vw;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1vw;
+  color: #fff;
+}
+
+.head {
+  width:100%;  
+}
+
+.tile {
+  float:left;
+  color:#fff;
+  max-width:20%;
+  min-width:150px;
+  text-align:center;
+  background-color:#000000;
+  padding-top: 20px;
+  position:relative;
+}
+
+#tiles img {
+  width: 100%;
+  z-index:-1;
+}
+
+.tile-title {
+  font-size: 1.2vw;
+}
+
+.cover {
+  background: black;
+  height:8%;
+  position: absolute;
+  top:92%;
+  width:100%;
+/*   border: 1px black solid; */
+}
